@@ -1,0 +1,7 @@
+# set up api servers routes
+servers:
+  config:
+    url: ${SERVERS_CONFIG_URL}
+
+server:
+  port: ${SERVER_PORT:8080}
