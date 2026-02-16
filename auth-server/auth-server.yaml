@@ -27,3 +27,7 @@ jwt:
   private-key: ${JWT_PRIVATE_KEY}
   private-key-expiration: ${JWT_PRIVATE_KEY_EXPIRATION}
 
+oauth:
+  yandex:
+    id: ${OAUTH_YANDEX_ID}
+    secret: ${OAUTH_YANDEX_SECRET}
